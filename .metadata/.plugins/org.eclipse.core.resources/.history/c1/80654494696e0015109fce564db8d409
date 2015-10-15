@@ -1,0 +1,12 @@
+package Website_Script;
+
+import java.io.*;
+
+public class WeightNot_Database {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			File file=new File("");//File location
+	}
+
+}

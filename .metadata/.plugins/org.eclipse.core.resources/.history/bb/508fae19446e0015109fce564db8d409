@@ -1,0 +1,8 @@
+
+public interface Google_Chrome {
+	public static void main(String[] args){
+	String path=System.getProperty("user.dir");
+	System.setProperty("webdriver.chrome.driver",path+"/Chrome/chromedriver");
+
+}
+}

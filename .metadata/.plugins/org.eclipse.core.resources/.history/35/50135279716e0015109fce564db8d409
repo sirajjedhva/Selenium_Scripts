@@ -1,0 +1,54 @@
+package Website_Script;
+
+import java.io.*;
+import java.util.ArrayList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+public class WeightNot_Database {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{	
+		File file=new File("/home/inheritx_sales/Desktop/THINNERCLEANSE.xml");//File location
+			
+			//Prpare Xml
+			DocumentBuilderFactory dbf=DocumentBuilderFactory.newInstance();
+			DocumentBuilder db=dbf.newDocumentBuilder();
+			Document document=db.parse(file);
+			document.getDocumentElement().normalize();
+			System.out.println("Debug : Root element " + document.getDocumentElement().getNodeName());
+			NodeList node=document.getElementsByTagName("options");
+			int l=node.getLength();
+			System.out.println(l);
+			//System.out.println("Fields Data");
+			System.out.println("---------------------------------------------------");
+			NodeList nL=document.getElementsByTagName("fileds");
+			System.out.println("fields length :"+nL.getLength());
+			System.out.println("---------------------------------");
+			NodeList nList1=document.getElementsByTagName("field");
+			System.out.println(nList1.getLength());
+			ArrayList<String> foods=new ArrayList<String>();
+			String f_item="";
+			int count=0;
+			for(int i=0;i<nList1.getLength();i++){
+				f_item=nList1.item(i).getAttributes().getNamedItem("title").getNodeValue();
+				foods.add(f_item);
+				f_item="";
+				count++;
+			}
+			System.out.println(count+ "item addes for Thinnercleanse");
+			System.out.println("*************************************");
+			
+		   }catch(Exception e){
+		 e.printStackTrace();
+		 
+	 }
+	}
+}

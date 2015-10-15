@@ -1,0 +1,15 @@
+package Website_Script;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SlideShare_Update extends SlideShare_Login{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String path=System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",path+"/Chrome/chromedriver");
+		ChromeDriver driver=new ChromeDriver();
+		SlideShare_Login sl=new SlideShare_Login();
+	}
+
+}

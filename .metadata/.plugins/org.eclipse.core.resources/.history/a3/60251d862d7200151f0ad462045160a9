@@ -1,0 +1,17 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class Multiple_Action {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String path=System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver", path+"/Chrome/googledirver");
+		ChromeDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("http://inheritxdev.net/workers_comp_pro/");
+	}
+
+}

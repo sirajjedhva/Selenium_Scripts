@@ -1,0 +1,7 @@
+
+public interface Google_Chrome {
+	
+	String path=System.getProperty("user.dir");
+	
+
+}

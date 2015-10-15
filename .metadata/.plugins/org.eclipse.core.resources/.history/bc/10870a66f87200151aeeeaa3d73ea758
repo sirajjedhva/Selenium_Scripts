@@ -1,0 +1,19 @@
+package Website_Script;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Slideshare_Login extends SlideShare_Credential{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String path=System.getProperty("user.dir");
+		System.setProperty("webdriver.driver.chromedriver", path+"/Chrome/chromedriver");
+		ChromeDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("");
+		driver.findElementById("user_email").sendKeys(email);
+		driver.findElementById("user_login").sendKeys(username);
+		driver.findElementById("user_password").sendKeys(password);
+	}
+
+}

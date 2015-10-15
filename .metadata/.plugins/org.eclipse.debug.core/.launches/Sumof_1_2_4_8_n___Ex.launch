@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ExampleJava/src/Sumof_1_2_4_8_n___Ex.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Sumof_1_2_4_8_n___Ex"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ExampleJava"/>
+</launchConfiguration>

@@ -1,0 +1,10 @@
+package Website_Script;
+
+public class SlideShare_Update extends SlideShare_Login{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ SlideShare_Login sl=new SlideShare_Login();
+	}
+
+}

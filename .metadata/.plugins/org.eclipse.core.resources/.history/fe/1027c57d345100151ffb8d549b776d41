@@ -1,0 +1,18 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class ExplicityWait_Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    WebDriver driver=new FirefoxDriver();
+    String url="http://soccer.inheritx.com";
+    
+    driver.manage().window().maximize();
+    driver.get(url);
+    
+    
+	}
+
+}

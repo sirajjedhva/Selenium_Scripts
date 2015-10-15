@@ -1,0 +1,30 @@
+package Website_Script;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SlideShare_Login extends SlideShare_Credential {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String path=System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",path+"/Chrome/chromedriver");
+		ChromeDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("http://www.slideshare.net/");
+		
+		WebElement login=driver.findElementByLinkText("Login");
+		login.click();
+		System.out.println("Link :"+login.getAttribute("value"));
+		try{
+			System.out.println("Waiting for 5 sec");
+			Thread.sleep(5000);
+			WebElement user_name=driver.findElementById("user_login");
+            user_name.sendKeys(username);
+            System.out.println("username : " +user_name.getAttribute("value"));
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+
+}
