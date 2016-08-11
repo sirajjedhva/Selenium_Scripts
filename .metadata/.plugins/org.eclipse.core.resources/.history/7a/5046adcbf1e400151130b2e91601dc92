@@ -1,0 +1,18 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class SiblingAndParentInXpath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String path=System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver", path+"/Chrome/chromedriver");
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://guru99.com");
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="49148" started-at="2016-03-03T11:07:34Z" finished-at="2016-03-03T11:08:23Z">
+    <groups>
+    </groups>
+    <test name="facebook" duration-ms="49148" started-at="2016-03-03T11:07:34Z" finished-at="2016-03-03T11:08:23Z">
+      <class name="ParallelTest">
+        <test-method status="PASS" signature="sessionOne()[pri:0, instance:ParallelTest@1824c0c]" name="sessionOne" duration-ms="49069" started-at="2016-03-03T16:37:34Z" finished-at="2016-03-03T16:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionOne -->
+        <test-method status="PASS" signature="sessionTwo()[pri:0, instance:ParallelTest@1824c0c]" name="sessionTwo" duration-ms="44843" started-at="2016-03-03T16:37:34Z" finished-at="2016-03-03T16:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionTwo -->
+      </class> <!-- ParallelTest -->
+    </test> <!-- facebook -->
+  </suite> <!-- TestSuite -->
+</testng-results>

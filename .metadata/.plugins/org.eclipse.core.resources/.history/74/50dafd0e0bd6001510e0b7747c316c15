@@ -1,0 +1,18 @@
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class LoggingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		driver=new FirefoxDriver();
+		Logger log=Logger.getLogger("devpinoyLogger");
+		driver.get("http://healthunify.com/bmicalculator");
+			//driver.get("<a href="http://healthunify.com/bmicalculator/">http://healthunify.com/bmicalculator/</a>");                                
+				log.debug("opening webiste");
+	}
+
+}

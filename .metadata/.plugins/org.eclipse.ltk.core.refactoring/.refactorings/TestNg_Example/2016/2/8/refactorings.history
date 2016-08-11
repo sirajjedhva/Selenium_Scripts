@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;Chrome&apos; to &apos;Log4j&apos;&#x0A;- Original project: &apos;TestNg_Example&apos;&#x0A;- Destination element: &apos;Log4j&apos;&#x0A;- Original element: &apos;TestNg_Example/Chrome&apos;" description="Copy source folder" destination="=Log4j" element1="/Chrome" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1455855704171" version="1.0"/>
+</session>

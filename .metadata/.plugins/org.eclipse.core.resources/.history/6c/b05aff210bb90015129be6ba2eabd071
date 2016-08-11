@@ -1,0 +1,25 @@
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeClass;
+
+
+public class PageScroll {
+	WebDriver driver;
+	String url="https://www.facebook.com";
+			
+	@BeforeClass
+	 public void setUp(){
+		 driver=new FirefoxDriver();
+		 driver.get(url);
+		 driver.manage().window().maximize();
+	 }
+	
+	public void scrollingUpToBottom(){
+		driver.navigate().to(url);
+		 /*((JavascriptExecutor) driver)
+         .executeScript("window.scrollTo(0, document.body.scrollHeight)");*/
+		((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight");
+	}
+
+}

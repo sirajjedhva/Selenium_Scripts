@@ -1,0 +1,982 @@
+<foodoptions>
+    <options id="options" title="options">
+        <fields>
+            <field id="1" title="Protein"/>
+            <field id="2" title="Fruit"/>
+            <field id="3" title="Vegetables"/>
+            <field id="4" title="Greens"/>
+            <field id="5" title="Herbs"/>
+            <field id="6" title="Seasonings and Oil"/>
+        </fields>
+    </options>
+    <Protein id="Protein" title="Protein">
+        <fields>
+            <field id="1" title="Eggs"/>
+            <field id="2" title="Meat"/>
+            <field id="3" title="Seafood"/>
+            <field id="4" title="Beans"/>
+        </fields>
+    </Protein>
+    <EggsB id="EggsB" title="EggsB">
+        <fields>
+            <field id="1" title="EGGS (Large) - 3 Whole"/>
+        </fields>
+    </EggsB>
+    <EggsL id="EggsL" title="EggsL">
+        <fields>
+            <field id="1" title="EGGS (Large) - 4 Whole"/>
+        </fields>
+    </EggsL>
+    <EggsD id="EggsD" title="EggsD">
+        <fields>
+            <field id="1" title="EGGS (Large) - 4 Whole"/>
+        </fields>
+    </EggsD>
+    
+    <MeatB id="MeatB" title="MeatB">
+        <fields>
+            <field id="1" title="Chicken (White Meat) - 5.64 oz allowed"/>
+            <field id="2" title="Kidney - 5.64 oz allowed"/>
+            <field id="3" title="Tripe - 5.64 oz allowed"/>
+            <field id="4" title="Turkey (White Meat) - 5.64 oz allowed"/>
+            <field id="5" title="Game (Lean) - 5.64 oz allowed"/>
+            <field id="6" title="Antelope - 5.64 oz allowed"/>
+            <field id="7" title="Beefalo - 5.64 oz allowed"/>
+            <field id="8" title="Beaver - 5.64 oz allowed"/>
+            <field id="9" title="Bison&#47;Buffalo - 5.64 oz allowed"/>
+            <field id="10" title="Boar - 5.64 oz allowed"/>
+            <field id="11" title="Caribou - 5.64 oz allowed"/>
+            <field id="12" title="Deer - 5.64 oz allowed"/>
+            <field id="13" title="Elk - 5.64 oz allowed"/>
+            <field id="14" title="Emu - 5.64 oz allowed"/>
+            <field id="15" title="Frog Legs - 5.64 oz allowed"/>
+            <field id="16" title="Horse - 5.64 oz allowed"/>
+            <field id="17" title="Kangaroo - 5.64 oz allowed"/>
+            <field id="18" title="Moose - 5.64 oz allowed"/>
+            <field id="19" title="Muskrat - 5.64 oz allowed"/>
+            <field id="20" title="Ostrich - 5.64 oz allowed"/>
+            <field id="21" title="Rabbit - 5.64 oz allowed"/>
+            <field id="22" title="Squirrel - 5.64 oz allowed"/>
+            <field id="23" title="Liver - 5.64 oz allowed"/>
+            
+            
+            <field id="24" title="Chicken (Dark Meat) - 4.7 oz allowed"/>
+            <field id="25" title="Duck - 4.7 oz allowed"/>
+            <field id="26" title="Beef less 5% Fat - 4.7 oz allowed"/>
+            <field id="27" title="Bottom round roast - 4.7 oz allowed"/>
+            <field id="28" title="Eye of round roast - 4.7 oz allowed"/>
+            <field id="29" title="Mock tender steak - 4.7 oz allowed"/>
+            <field id="30" title="Top round steak - 4.7 oz allowed"/>
+            <field id="31" title="Top sirloin steak - 4.7 oz allowed"/>
+            <field id="32" title="Ground Beef Extra Lean 5% - 4.7 oz allowed"/>
+            <field id="33" title="Tongue (Veal Only) - 4.7 oz allowed"/>
+            <field id="34" title="Turkey (Dark Meat) - 4.7 oz allowed"/>
+            
+            <field id="35" title="Beef less 10% Fat - 3.7 oz allowed"/>
+            <field id="36" title="Arm pot roast - 3.7 oz allowed"/>
+            <field id="37" title="Chuck shoulder roast - 3.7 oz allowed"/>
+            <field id="38" title="Shoulder steak - 3.7 oz allowed"/>
+            <field id="39" title="Strip steak - 3.7 oz allowed"/>
+            <field id="40" title="Tenderloin steak (filet mignon) - 3.7 oz allowed"/>
+            <field id="41" title="Ground Beef Lean 10% - 3.7 oz allowed"/>
+            <field id="42" title="Goose - 3.7 oz allowed"/>
+            <field id="43" title="Lamp (except ground) - 3.7 oz allowed"/>
+            <field id="44" title="Pork (except ground) - 3.7 oz allowed"/>
+            <field id="45" title="Game (Fatty) - 3.7 oz allowed"/>
+            <field id="46" title="Bear - 3.7 oz allowed"/>
+            <field id="47" title="Opossum - 3.7 oz allowed"/>
+            <field id="48" title="Raccoon - 3.7 oz allowed"/>
+        </fields>
+    </MeatB>
+    <MeatL id="MeatL" title="MeatL">
+        <fields>
+            <field id="1" title="Chicken (White Meat) - 7.17 oz allowed"/>
+            <field id="2" title="Kidney - 7.17 oz allowed"/>
+            <field id="3" title="Tripe - 7.17 oz allowed"/>
+            <field id="4" title="Turkey (White Meat) - 7.17 oz allowed"/>
+            <field id="5" title="Game (Lean) - 7.17 oz allowed"/>
+            <field id="6" title="Antelope - 7.17 oz allowed"/>
+            <field id="7" title="Beefalo - 7.17 oz allowed"/>
+            <field id="8" title="Beaver - 7.17 oz allowed"/>
+            <field id="9" title="Bison&#47;Buffalo - 7.17 oz allowed"/>
+            <field id="10" title="Boar - 7.17 oz allowed"/>
+            <field id="11" title="Caribou - 7.17 oz allowed"/>
+            <field id="12" title="Deer - 7.17 oz allowed"/>
+            <field id="13" title="Elk - 7.17 oz allowed"/>
+            <field id="14" title="Emu - 7.17 oz allowed"/>
+            <field id="15" title="Frog Legs - 7.17 oz allowed"/>
+            <field id="16" title="Horse - 7.17 oz allowed"/>
+            <field id="17" title="Kangaroo - 7.17 oz allowed"/>
+            <field id="18" title="Moose - 7.17 oz allowed"/>
+            <field id="19" title="Muskrat - 7.17 oz allowed"/>
+            <field id="20" title="Ostrich - 7.17 oz allowed"/>
+            <field id="21" title="Rabbit - 7.17 oz allowed"/>
+            <field id="22" title="Squirrel - 7.17 oz allowed"/>
+            <field id="23" title="Liver - 7.17 oz allowed"/>
+            
+            
+            <field id="24" title="Chicken (Dark Meat) - 6 oz allowed"/>
+            <field id="25" title="Duck - 6 oz allowed"/>
+            <field id="26" title="Beef less 5% Fat - 6 oz allowed"/>
+            <field id="27" title="Bottom round roast - 6 oz allowed"/>
+            <field id="28" title="Eye of round roast - 6 oz allowed"/>
+            <field id="29" title="Mock tender steak - 6 oz allowed"/>
+            <field id="30" title="Top round steak - 6 oz allowed"/>
+            <field id="31" title="Top sirloin steak - 6 oz allowed"/>
+            <field id="32" title="Ground Beef Extra Lean 5% - 6 oz allowed"/>
+            <field id="33" title="Tongue (Veal Only) - 6 oz allowed"/>
+            <field id="34" title="Turkey (Dark Meat) - 6 oz allowed"/>
+            
+            <field id="35" title="Beef less 10% Fat - 4.7 oz allowed"/>
+            <field id="36" title="Arm pot roast - 4.7 oz allowed"/>
+            <field id="37" title="Chuck shoulder roast - 4.7 oz allowed"/>
+            <field id="38" title="Shoulder steak - 4.7 oz allowed"/>
+            <field id="39" title="Strip steak - 4.7 oz allowed"/>
+            <field id="40" title="Tenderloin steak (filet mignon) - 4.7 oz allowed"/>
+            <field id="41" title="Ground Beef Lean 10% - 4.7 oz allowed"/>
+            <field id="42" title="Goose - 4.7 oz allowed"/>
+            <field id="43" title="Lamp (except ground) - 4.7 oz allowed"/>
+            <field id="44" title="Pork (except ground) - 4.7 oz allowed"/>
+            <field id="45" title="Game (Fatty) - 4.7 oz allowed"/>
+            <field id="46" title="Bear - 4.7 oz allowed"/>
+            <field id="47" title="Opossum - 4.7 oz allowed"/>
+            <field id="48" title="Raccoon - 4.7 oz allowed"/>
+        </fields>
+    </MeatL>
+    <MeatD id="MeatD" title="MeatD">
+        <fields>
+            <field id="1" title="Chicken (White Meat) - 7.17 oz allowed"/>
+            <field id="2" title="Kidney - 7.17 oz allowed"/>
+            <field id="3" title="Tripe - 7.17 oz allowed"/>
+            <field id="4" title="Turkey (White Meat) - 7.17 oz allowed"/>
+            <field id="5" title="Game (Lean) - 7.17 oz allowed"/>
+            <field id="6" title="Antelope - 7.17 oz allowed"/>
+            <field id="7" title="Beefalo - 7.17 oz allowed"/>
+            <field id="8" title="Beaver - 7.17 oz allowed"/>
+            <field id="9" title="Bison&#47;Buffalo - 7.17 oz allowed"/>
+            <field id="10" title="Boar - 7.17 oz allowed"/>
+            <field id="11" title="Caribou - 7.17 oz allowed"/>
+            <field id="12" title="Deer - 7.17 oz allowed"/>
+            <field id="13" title="Elk - 7.17 oz allowed"/>
+            <field id="14" title="Emu - 7.17 oz allowed"/>
+            <field id="15" title="Frog Legs - 7.17 oz allowed"/>
+            <field id="16" title="Horse - 7.17 oz allowed"/>
+            <field id="17" title="Kangaroo - 7.17 oz allowed"/>
+            <field id="18" title="Moose - 7.17 oz allowed"/>
+            <field id="19" title="Muskrat - 7.17 oz allowed"/>
+            <field id="20" title="Ostrich - 7.17 oz allowed"/>
+            <field id="21" title="Rabbit - 7.17 oz allowed"/>
+            <field id="22" title="Squirrel - 7.17 oz allowed"/>
+            <field id="23" title="Liver - 7.17 oz allowed"/>
+            
+            
+            <field id="24" title="Chicken (Dark Meat) - 6 oz allowed"/>
+            <field id="25" title="Duck - 6 oz allowed"/>
+            <field id="26" title="Beef less 5% Fat - 6 oz allowed"/>
+            <field id="27" title="Bottom round roast - 6 oz allowed"/>
+            <field id="28" title="Eye of round roast - 6 oz allowed"/>
+            <field id="29" title="Mock tender steak - 6 oz allowed"/>
+            <field id="30" title="Top round steak - 6 oz allowed"/>
+            <field id="31" title="Top sirloin steak - 6 oz allowed"/>
+            <field id="32" title="Ground Beef Extra Lean 5% - 6 oz allowed"/>
+            <field id="33" title="Tongue (Veal Only) - 6 oz allowed"/>
+            <field id="34" title="Turkey (Dark Meat) - 6 oz allowed"/>
+            
+            <field id="35" title="Beef less 10% Fat - 4.7 oz allowed"/>
+            <field id="36" title="Arm pot roast - 4.7 oz allowed"/>
+            <field id="37" title="Chuck shoulder roast - 4.7 oz allowed"/>
+            <field id="38" title="Shoulder steak - 4.7 oz allowed"/>
+            <field id="39" title="Strip steak - 4.7 oz allowed"/>
+            <field id="40" title="Tenderloin steak (filet mignon) - 4.7 oz allowed"/>
+            <field id="41" title="Ground Beef Lean 10% - 4.7 oz allowed"/>
+            <field id="42" title="Goose - 4.7 oz allowed"/>
+            <field id="43" title="Lamp (except ground) - 4.7 oz allowed"/>
+            <field id="44" title="Pork (except ground) - 4.7 oz allowed"/>
+            <field id="45" title="Game (Fatty) - 4.7 oz allowed"/>
+            <field id="46" title="Bear - 4.7 oz allowed"/>
+            <field id="47" title="Opossum - 4.7 oz allowed"/>
+            <field id="48" title="Raccoon - 4.7 oz allowed"/>
+        </fields>
+    </MeatD>
+    
+    <SeafoodB id="SeafoodB" title="SeafoodB">
+        <fields>
+            <field id="1" title="Crab - 5.33 oz allowed"/>
+            <field id="2" title="Crayfish - 5.33 oz allowed"/>
+            <field id="3" title="Lobster - 5.33 oz allowed"/>
+            <field id="4" title="Langostino - 5.33 oz allowed"/>
+            <field id="5" title="Shrimp - 5.33 oz allowed"/>
+            <field id="6" title="Abalone - 5.33 oz allowed"/>
+            <field id="7" title="Clams - 5.33 oz allowed"/>
+            <field id="8" title="Conch - 5.33 oz allowed"/>
+            <field id="9" title="Cuttlefish - 5.33 oz allowed"/>
+            <field id="1O" title="Mussels - 5.33 oz allowed"/>
+            <field id="11" title="Octopus - 5.33 oz allowed"/>
+            <field id="12" title="Oysters - 5.33 oz allowed"/>
+            <field id="13" title="Scallops - 5.33 oz allowed"/>
+            <field id="14" title="Snails - 5.33 oz allowed"/>
+            <field id="15" title="Squid - 5.33 oz allowed"/>
+            <field id="16" title="Bass - 5.33 oz allowed"/>
+            <field id="17" title="Cod - 5.33 oz allowed"/>
+            <field id="18" title="Coley - 5.33 oz allowed"/>
+            <field id="19" title="Flounder - 5.33 oz allowed"/>
+            <field id="20" title="Haddock - 5.33 oz allowed"/>
+            <field id="21" title="Hake - 5.33 oz allowed"/>
+            <field id="22" title="Halibut - 5.33 oz allowed"/>
+            <field id="23" title="John Dory - 5.33 oz allowed"/>
+            <field id="24" title="Mahi Mahi - 5.33 oz allowed"/>
+            <field id="25" title="Monkfish - 5.33 oz allowed"/>
+            <field id="26" title="Orange Roughy - 5.33 oz allowed"/>
+            <field id="27" title="Pollock - 5.33 oz allowed"/>
+            <field id="28" title="Scrod - 5.33 oz allowed"/>
+            <field id="29" title="Sea Bass (except Chilean) - 5.33 oz allowed"/>
+            <field id="30" title="Snapper - 5.33 oz allowed"/>
+            <field id="31" title="Sole - 5.33 oz allowed"/>
+            <field id="32" title="Striped Bass - 5.33 oz allowed"/>
+            <field id="33" title="Swai - 5.33 oz allowed"/>
+            <field id="34" title="Tilapia - 5.33 oz allowed"/>
+            <field id="35" title="Tra - 5.33 oz allowed"/>
+            <field id="36" title="Turbot - 5.33 oz allowed"/>
+            <field id="37" title="White Perch - 5.33 oz allowed"/>
+            <field id="38" title="Whiting - 5.33 oz allowed"/>
+            
+        </fields>
+    </SeafoodB>
+    <SeafoodL id="SeafoodL" title="SeafoodL">
+        <fields>
+            <field id="1" title="Crab - 8 oz allowed"/>
+            <field id="2" title="Crayfish - 8 oz allowed"/>
+            <field id="3" title="Lobster - 8 oz allowed"/>
+            <field id="4" title="Langostino - 8 oz allowed"/>
+            <field id="5" title="Shrimp - 8 oz allowed"/>
+            <field id="6" title="Abalone - 8 oz allowed"/>
+            <field id="7" title="Clams - 8 oz allowed"/>
+            <field id="8" title="Conch - 8 oz allowed"/>
+            <field id="9" title="Cuttlefish - 8 oz allowed"/>
+            <field id="1O" title="Mussels - 8 oz allowed"/>
+            <field id="11" title="Octopus - 8 oz allowed"/>
+            <field id="12" title="Oysters - 8 oz allowed"/>
+            <field id="13" title="Scallops - 8 oz allowed"/>
+            <field id="14" title="Snails - 8 oz allowed"/>
+            <field id="15" title="Squid - 8 oz allowed"/>
+            <field id="16" title="Bass - 8 oz allowed"/>
+            <field id="17" title="Cod - 8 oz allowed"/>
+            <field id="18" title="Coley - 8 oz allowed"/>
+            <field id="19" title="Flounder - 8 oz allowed"/>
+            <field id="20" title="Haddock - 8 oz allowed"/>
+            <field id="21" title="Hake - 8 oz allowed"/>
+            <field id="22" title="Halibut - 8 oz allowed"/>
+            <field id="23" title="John Dory - 8 oz allowed"/>
+            <field id="24" title="Mahi Mahi - 8 oz allowed"/>
+            <field id="25" title="Monkfish - 8 oz allowed"/>
+            <field id="26" title="Orange Roughy - 8 oz allowed"/>
+            <field id="27" title="Pollock - 8 oz allowed"/>
+            <field id="28" title="Scrod - 8 oz allowed"/>
+            <field id="29" title="Sea Bass (except Chilean) - 8 oz allowed"/>
+            <field id="30" title="Snapper - 8 oz allowed"/>
+            <field id="31" title="Sole - 8 oz allowed"/>
+            <field id="32" title="Striped Bass - 8 oz allowed"/>
+            <field id="33" title="Swai - 8 oz allowed"/>
+            <field id="34" title="Tilapia - 8 oz allowed"/>
+            <field id="35" title="Tra - 8 oz allowed"/>
+            <field id="36" title="Turbot - 8 oz allowed"/>
+            <field id="37" title="White Perch - 8 oz allowed"/>
+            <field id="38" title="Whiting - 8 oz allowed"/>
+        </fields>
+    </SeafoodL>
+    <SeafoodD id="SeafoodD" title="SeafoodD">
+        <fields>
+            <field id="1" title="Crab - 8 oz allowed"/>
+            <field id="2" title="Crayfish - 8 oz allowed"/>
+            <field id="3" title="Lobster - 8 oz allowed"/>
+            <field id="4" title="Langostino - 8 oz allowed"/>
+            <field id="5" title="Shrimp - 8 oz allowed"/>
+            <field id="6" title="Abalone - 8 oz allowed"/>
+            <field id="7" title="Clams - 8 oz allowed"/>
+            <field id="8" title="Conch - 8 oz allowed"/>
+            <field id="9" title="Cuttlefish - 8 oz allowed"/>
+            <field id="1O" title="Mussels - 8 oz allowed"/>
+            <field id="11" title="Octopus - 8 oz allowed"/>
+            <field id="12" title="Oysters - 8 oz allowed"/>
+            <field id="13" title="Scallops - 8 oz allowed"/>
+            <field id="14" title="Snails - 8 oz allowed"/>
+            <field id="15" title="Squid - 8 oz allowed"/>
+            <field id="16" title="Bass - 8 oz allowed"/>
+            <field id="17" title="Cod - 8 oz allowed"/>
+            <field id="18" title="Coley - 8 oz allowed"/>
+            <field id="19" title="Flounder - 8 oz allowed"/>
+            <field id="20" title="Haddock - 8 oz allowed"/>
+            <field id="21" title="Hake - 8 oz allowed"/>
+            <field id="22" title="Halibut - 8 oz allowed"/>
+            <field id="23" title="John Dory - 8 oz allowed"/>
+            <field id="24" title="Mahi Mahi - 8 oz allowed"/>
+            <field id="25" title="Monkfish - 8 oz allowed"/>
+            <field id="26" title="Orange Roughy - 8 oz allowed"/>
+            <field id="27" title="Pollock - 8 oz allowed"/>
+            <field id="28" title="Scrod - 8 oz allowed"/>
+            <field id="29" title="Sea Bass (except Chilean) - 8 oz allowed"/>
+            <field id="30" title="Snapper - 8 oz allowed"/>
+            <field id="31" title="Sole - 8 oz allowed"/>
+            <field id="32" title="Striped Bass - 8 oz allowed"/>
+            <field id="33" title="Swai - 8 oz allowed"/>
+            <field id="34" title="Tilapia - 8 oz allowed"/>
+            <field id="35" title="Tra - 8 oz allowed"/>
+            <field id="36" title="Turbot - 8 oz allowed"/>
+            <field id="37" title="White Perch - 8 oz allowed"/>
+            <field id="38" title="Whiting - 8 oz allowed"/>
+        </fields>
+    </SeafoodD>
+
+    <BeansB id="BeansB" title="BeansB">
+        <fields>
+            <field id="1" title="Black Beans - 0 oz allowed"/>
+            <field id="2" title="Black Eyed Peas - 0 oz allowed"/>
+            <field id="3" title="Cannelini - 0 oz allowed"/>
+            <field id="4" title="Garbanzo Beans/Chick Peas - 0 oz allowed"/>
+            <field id="5" title="Lentil - 0 oz allowed"/>
+            <field id="6" title="Lima - 0 oz allowed"/>
+            <field id="7" title="Mung - 0 oz allowed"/>
+            <field id="8" title="Pinto - 0 oz allowed"/>
+            <field id="9" title="Red Kidney - 0 oz allowed"/>
+            <field id="1O" title="Spit Pea - 0 oz allowed"/>
+        </fields>
+    </BeansB>
+    <BeansL id="BeansL" title="BeansL">
+        <fields>
+            <field id="1" title="Black Beans - 0 oz allowed"/>
+            <field id="2" title="Black Eyed Peas - 0 oz allowed"/>
+            <field id="3" title="Cannelini - 0 oz allowed"/>
+            <field id="4" title="Garbanzo Beans/Chick Peas - 0 oz allowed"/>
+            <field id="5" title="Lentil - 0 oz allowed"/>
+            <field id="6" title="Lima - 0 oz allowed"/>
+            <field id="7" title="Mung - 0 oz allowed"/>
+            <field id="8" title="Pinto - 0 oz allowed"/>
+            <field id="9" title="Red Kidney - 0 oz allowed"/>
+            <field id="1O" title="Spit Pea - 0 oz allowed"/>
+        </fields>
+    </BeansL>
+    <BeansD id="BeansD" title="BeansD">
+        <fields>
+            <field id="1" title="Black Beans - 0 oz allowed"/>
+            <field id="2" title="Black Eyed Peas - 0 oz allowed"/>
+            <field id="3" title="Cannelini - 0 oz allowed"/>
+            <field id="4" title="Garbanzo Beans/Chick Peas - 0 oz allowed"/>
+            <field id="5" title="Lentil - 0 oz allowed"/>
+            <field id="6" title="Lima - 0 oz allowed"/>
+            <field id="7" title="Mung - 0 oz allowed"/>
+            <field id="8" title="Pinto - 0 oz allowed"/>
+            <field id="9" title="Red Kidney - 0 oz allowed"/>
+            <field id="1O" title="Spit Pea - 0 oz allowed"/>
+        </fields>
+    </BeansD>
+
+    <FruitB id="FruitB" title="FruitB">
+        <fields>
+            <field id="1" title="Blueberries - 3.5 oz allowed"/>
+            <field id="2" title="Cherries (red - sweet or sour) - 3.5 oz allowed"/>
+            <field id="3" title="Grapes - 3.5 oz allowed"/>
+            <field id="4" title="Kiwi - 3.5 oz allowed"/>
+            <field id="5" title="Mango - 3.5 oz allowed"/>
+            <field id="6" title="Minneola&#47;Tangelo - 3.5 oz allowed"/>
+            <field id="7" title="Raspebrries - 3.5 oz allowed"/>
+            <field id="8" title="Tangerine&#47;Mandarin - 3.5 oz allowed"/>
+            
+            <field id="9" title="Apples - 4.5 oz allowed"/>
+            <field id="1O" title="Applesauce (unsweetened) - 4.5 oz allowed"/>
+            <field id="11" title="Apricots - 4.5 oz allowed"/>
+            <field id="12" title="Blackberries - 4.5 oz allowed"/>
+            <field id="13" title="Clementines - 4.5 oz allowed"/>
+            <field id="14" title="Nectarines - 4.5 oz allowed"/>
+            <field id="15" title="Oranges - 4.5 oz allowed"/>
+            <field id="16" title="Papaya - 4.5 oz allowed"/>
+            <field id="17" title="Peaches - 4.5 oz allowed"/>
+            <field id="18" title="Plums - 4.5 oz allowed"/>
+            
+            <field id="19" title="Acerola Cherries - 7 oz allowed"/>
+            <field id="20" title="Grapefruit&#47;Pummelo - 7 oz allowed"/>
+            <field id="21" title="Starfruit - 7 oz allowed"/>
+            <field id="22" title="Strawberries - 7 oz allowed"/>
+        </fields>
+    </FruitB>
+    <FruitL id="FruitL" title="FruitL">
+        <fields>
+            <field id="1" title="Blueberries - 0 oz allowed"/>
+            <field id="2" title="Cherries (red - sweet or sour) - 0 oz allowed"/>
+            <field id="3" title="Grapes - 0 oz allowed"/>
+            <field id="4" title="Kiwi - 0 oz allowed"/>
+            <field id="5" title="Mango - 0 oz allowed"/>
+            <field id="6" title="Minneola&#47;Tangelo - 0 oz allowed"/>
+            <field id="7" title="Raspebrries - 0 oz allowed"/>
+            <field id="8" title="Tangerine&#47;Mandarin - 0 oz allowed"/>
+            
+            <field id="9" title="Apples - 0 oz allowed"/>
+            <field id="1O" title="Applesauce (unsweetened) - 0 oz allowed"/>
+            <field id="11" title="Apricots - 0 oz allowed"/>
+            <field id="12" title="Blackberries - 0 oz allowed"/>
+            <field id="13" title="Clementines - 0 oz allowed"/>
+            <field id="14" title="Nectarines - 0 oz allowed"/>
+            <field id="15" title="Oranges - 0 oz allowed"/>
+            <field id="16" title="Papaya - 0 oz allowed"/>
+            <field id="17" title="Peaches - 0 oz allowed"/>
+            <field id="18" title="Plums - 0 oz allowed"/>
+            
+            <field id="19" title="Acerola Cherries - 0 oz allowed"/>
+            <field id="20" title="Grapefruit&#47;Pummelo - 0 oz allowed"/>
+            <field id="21" title="Starfruit - 0 oz allowed"/>
+            <field id="22" title="Strawberries - 0 oz allowed"/>
+        </fields>
+    </FruitL>
+    <FruitD id="FruitD" title="FruitD">
+        <fields>
+            <field id="1" title="Blueberries - 3.5 oz allowed"/>
+            <field id="2" title="Cherries (red - sweet or sour) - 3.5 oz allowed"/>
+            <field id="3" title="Grapes - 3.5 oz allowed"/>
+            <field id="4" title="Kiwi - 3.5 oz allowed"/>
+            <field id="5" title="Mango - 3.5 oz allowed"/>
+            <field id="6" title="Minneola&#47;Tangelo - 3.5 oz allowed"/>
+            <field id="7" title="Raspebrries - 3.5 oz allowed"/>
+            <field id="8" title="Tangerine&#47;Mandarin - 3.5 oz allowed"/>
+            
+            <field id="9" title="Apples - 4.5 oz allowed"/>
+            <field id="1O" title="Applesauce (unsweetened) - 4.5 oz allowed"/>
+            <field id="11" title="Apricots - 4.5 oz allowed"/>
+            <field id="12" title="Blackberries - 4.5 oz allowed"/>
+            <field id="13" title="Clementines - 4.5 oz allowed"/>
+            <field id="14" title="Nectarines - 4.5 oz allowed"/>
+            <field id="15" title="Oranges - 4.5 oz allowed"/>
+            <field id="16" title="Papaya - 4.5 oz allowed"/>
+            <field id="17" title="Peaches - 4.5 oz allowed"/>
+            <field id="18" title="Plums - 4.5 oz allowed"/>
+            
+            <field id="19" title="Acerola Cherries - 7 oz allowed"/>
+            <field id="20" title="Grapefruit&#47;Pummelo - 7 oz allowed"/>
+            <field id="21" title="Starfruit - 7 oz allowed"/>
+            <field id="22" title="Strawberries - 7 oz allowed"/>
+        </fields>
+    </FruitD>
+    
+    <VegetablesB id="VegetablesB" title="VegetablesB">
+        <fields>
+            <field id="1" title="Broccoli - 0 oz allowed"/>
+            <field id="2" title="Fennel - 0 oz allowed"/>
+            <field id="3" title="Fiddlehead Ferns - 0 oz allowed"/>
+            <field id="4" title="Green Beans - 0 oz allowed"/>
+            <field id="5" title="Jalapeno Peppers - 0 oz allowed"/>
+            <field id="6" title="Kohlrabi - 0 oz allowed"/>
+            <field id="7" title="Okra - 0 oz allowed"/>
+            <field id="8" title="Pumpkin - 0 oz allowed"/>
+            <field id="9" title="Seaweed:  Spirulina - 0 oz allowed"/>
+            <field id="1O" title="Seaweed:  Agar - 0 oz allowed"/>
+            <field id="11" title="Snap Bean - 0 oz allowed"/>
+            <field id="12" title="Spaghetti Squash - 0 oz allowed"/>
+            <field id="13" title="Sweet Onion - 0 oz allowed"/>
+            <field id="14" title="Sweet Peppers (Yellow) - 0 oz allowed"/>
+            <field id="15" title="Tomatillo - 0 oz allowed"/>
+            <field id="16" title="Turnip - 0 oz allowed"/>
+            
+            <field id="17" title="Alfalfa Sprouts - 0 oz allowed"/>
+            <field id="18" title="Asparagus - 0 oz allowed"/>
+            <field id="19" title="Bamboo Shoots - 0 oz allowed"/>
+            <field id="20" title="Brown&#47;Crimini&#47;Italian Mushrooms - 0 oz allowed"/>
+            <field id="21" title="Cauliflower - 0 oz allowed"/>
+            <field id="22" title="Eggplant - 0 oz allowed"/>
+            <field id="23" title="Green Onion&#47;Leeks - 0 oz allowed"/>
+            <field id="24" title="Portabello Mushrooms - 0 oz allowed"/>
+            <field id="25" title="Rhubarb - 0 oz allowed"/>
+            <field id="26" title="Sweet Peppers (Green) - 0 oz allowed"/>
+            <field id="27" title="White Mushrooms - 0 oz allowed"/>
+            
+            <field id="28" title="Celery - 0 oz allowed"/>
+            <field id="29" title="Cucumber - 0 oz allowed"/>
+            <field id="30" title="Radish - 0 oz allowed"/>
+            <field id="31" title="Summer Squash - 0 oz allowed"/>
+            <field id="32" title="Zuchini - 0 oz allowed"/>
+            <field id="33" title="Tomatoes - 0 oz allowed"/>
+        </fields>
+    </VegetablesB>
+    <VegetablesL id="VegetablesL" title="VegetablesL">
+        <fields>
+            <field id="1" title="Broccoli - 3.5 oz allowed"/>
+            <field id="2" title="Fennel - 3.5 oz allowed"/>
+            <field id="3" title="Fiddlehead Ferns - 3.5 oz allowed"/>
+            <field id="4" title="Green Beans - 3.5 oz allowed"/>
+            <field id="5" title="Jalapeno Peppers - 3.5 oz allowed"/>
+            <field id="6" title="Kohlrabi - 3.5 oz allowed"/>
+            <field id="7" title="Okra - 3.5 oz allowed"/>
+            <field id="8" title="Pumpkin - 3.5 oz allowed"/>
+            <field id="9" title="Seaweed:  Spirulina - 3.5 oz allowed"/>
+            <field id="1O" title="Seaweed:  Agar - 3.5 oz allowed"/>
+            <field id="11" title="Snap Bean - 3.5 oz allowed"/>
+            <field id="12" title="Spaghetti Squash - 3.5 oz allowed"/>
+            <field id="13" title="Sweet Onion - 3.5 oz allowed"/>
+            <field id="14" title="Sweet Peppers (Yellow) - 3.5 oz allowed"/>
+            <field id="15" title="Tomatillo - 3.5 oz allowed"/>
+            <field id="16" title="Turnip - 3.5 oz allowed"/>
+            
+            <field id="17" title="Alfalfa Sprouts - 4.5 oz allowed"/>
+            <field id="18" title="Asparagus - 4.5 oz allowed"/>
+            <field id="19" title="Bamboo Shoots - 4.5 oz allowed"/>
+            <field id="20" title="Brown&#47;Crimini&#47;Italian Mushrooms - 4.5 oz allowed"/>
+            <field id="21" title="Cauliflower - 4.5 oz allowed"/>
+            <field id="22" title="Eggplant - 4.5 oz allowed"/>
+            <field id="23" title="Green Onion&#47;Leeks - 4.5 oz allowed"/>
+            <field id="24" title="Portabello Mushrooms - 4.5 oz allowed"/>
+            <field id="25" title="Rhubarb - 4.5 oz allowed"/>
+            <field id="26" title="Sweet Peppers (Green) - 4.5 oz allowed"/>
+            <field id="27" title="White Mushrooms - 4.5 oz allowed"/>
+            
+            <field id="28" title="Celery - 7 oz allowed"/>
+            <field id="29" title="Cucumber - 7 oz allowed"/>
+            <field id="30" title="Radish - 7 oz allowed"/>
+            <field id="31" title="Summer Squash - 7 oz allowed"/>
+            <field id="32" title="Zuchini - 7 oz allowed"/>
+            <field id="33" title="Tomatoes - 7 oz allowed"/>
+        </fields>
+    </VegetablesL>
+    <VegetablesD id="VegetablesD" title="VegetablesD">
+        <fields>
+            <field id="1" title="Broccoli - 3.5 oz allowed"/>
+            <field id="2" title="Fennel - 3.5 oz allowed"/>
+            <field id="3" title="Fiddlehead Ferns - 3.5 oz allowed"/>
+            <field id="4" title="Green Beans - 3.5 oz allowed"/>
+            <field id="5" title="Jalapeno Peppers - 3.5 oz allowed"/>
+            <field id="6" title="Kohlrabi - 3.5 oz allowed"/>
+            <field id="7" title="Okra - 3.5 oz allowed"/>
+            <field id="8" title="Pumpkin - 3.5 oz allowed"/>
+            <field id="9" title="Seaweed:  Spirulina - 3.5 oz allowed"/>
+            <field id="1O" title="Seaweed:  Agar - 3.5 oz allowed"/>
+            <field id="11" title="Snap Bean - 3.5 oz allowed"/>
+            <field id="12" title="Spaghetti Squash - 3.5 oz allowed"/>
+            <field id="13" title="Sweet Onion - 3.5 oz allowed"/>
+            <field id="14" title="Sweet Peppers (Yellow) - 3.5 oz allowed"/>
+            <field id="15" title="Tomatillo - 3.5 oz allowed"/>
+            <field id="16" title="Turnip - 3.5 oz allowed"/>
+            
+            <field id="17" title="Alfalfa Sprouts - 4.5 oz allowed"/>
+            <field id="18" title="Asparagus - 4.5 oz allowed"/>
+            <field id="19" title="Bamboo Shoots - 4.5 oz allowed"/>
+            <field id="20" title="Brown&#47;Crimini&#47;Italian Mushrooms - 4.5 oz allowed"/>
+            <field id="21" title="Cauliflower - 4.5 oz allowed"/>
+            <field id="22" title="Eggplant - 4.5 oz allowed"/>
+            <field id="23" title="Green Onion&#47;Leeks - 4.5 oz allowed"/>
+            <field id="24" title="Portabello Mushrooms - 4.5 oz allowed"/>
+            <field id="25" title="Rhubarb - 4.5 oz allowed"/>
+            <field id="26" title="Sweet Peppers (Green) - 4.5 oz allowed"/>
+            <field id="27" title="White Mushrooms - 4.5 oz allowed"/>
+            
+            <field id="28" title="Celery - 7 oz allowed"/>
+            <field id="29" title="Cucumber - 7 oz allowed"/>
+            <field id="30" title="Radish - 7 oz allowed"/>
+            <field id="31" title="Summer Squash - 7 oz allowed"/>
+            <field id="32" title="Zuchini - 7 oz allowed"/>
+            <field id="33" title="Tomatoes - 7 oz allowed"/>
+        </fields>        
+    </VegetablesD>
+    
+    <GreensB id="GreensB" title="GreensB">
+        <fields>
+            <field id="1" title="Arugula&#47;Rocket - 0 oz allowed"/>
+            <field id="2" title="Bibb Lettuce - 0 oz allowed"/>
+            <field id="3" title="Bok Choi - 0 oz allowed"/>
+            <field id="4" title="Boston Lettuce - 0 oz allowed"/>
+            <field id="5" title="Butterhead - 0 oz allowed"/>
+            <field id="6" title="Cabbage - 0 oz allowed"/>
+            <field id="7" title="Chard - 0 oz allowed"/>
+            <field id="8" title="Chickory - 0 oz allowed"/>
+            <field id="9" title="Collard Greens - 0 oz allowed"/>
+            <field id="1O" title="Corn Salad Leaf&#47;Mache - 0 oz allowed"/>
+            <field id="11" title="Dandelion Greens - 0 oz allowed"/>
+            <field id="12" title="Escarole - 0 oz allowed"/>
+            <field id="13" title="Endive - 0 oz allowed"/>
+            <field id="14" title="Fennel - 0 oz allowed"/>
+            <field id="15" title="Frisee - 0 oz allowed"/>
+            <field id="16" title="Field Greens - 0 oz allowed"/>
+            <field id="17" title="Iceberg Lettuce - 0 oz allowed"/>
+            
+            <field id="18" title="Kale - 0 oz allowed"/>
+            <field id="19" title="Lamb's Leaf - 0 oz allowed"/>
+            <field id="20" title="Lolla Bionda - 0 oz allowed"/>
+            <field id="21" title="Lollo Rosso - 0 oz allowed"/>
+            <field id="22" title="Mesclun - 0 oz allowed"/>
+            <field id="23" title="Mustard Greens - 0 oz allowed"/>
+            <field id="24" title="Oakleaf Lettuce - 0 oz allowed"/>
+            <field id="25" title="Radicchio - 0 oz allowed"/>
+            <field id="26" title="Red Orach - 0 oz allowed"/>
+            <field id="27" title="Romaine - 0 oz allowed"/>
+            <field id="28" title="Spinach - 0 oz allowed"/>
+            
+            <field id="29" title="Tat Soi - 0 oz allowed"/>
+            <field id="30" title="Turnip Greens - 0 oz allowed"/>
+            <field id="31" title="Watercress - 0 oz allowed"/>
+        </fields>
+        
+    </GreensB>
+    <GreensL id="GreensL" title="GreensL">
+        <fields>
+            <field id="1" title="Arugula&#47;Rocket - 5.3 oz allowed"/>
+            <field id="2" title="Bibb Lettuce - 5.3 oz allowed"/>
+            <field id="3" title="Bok Choi - 5.3 oz allowed"/>
+            <field id="4" title="Boston Lettuce - 5.3 oz allowed"/>
+            <field id="5" title="Butterhead - 5.3 oz allowed"/>
+            <field id="6" title="Cabbage - 5.3 oz allowed"/>
+            <field id="7" title="Chard - 5.3 oz allowed"/>
+            <field id="8" title="Chickory - 5.3 oz allowed"/>
+            <field id="9" title="Collard Greens - 5.3 oz allowed"/>
+            <field id="1O" title="Corn Salad Leaf&#47;Mache - 5.3 oz allowed"/>
+            <field id="11" title="Dandelion Greens - 5.3 oz allowed"/>
+            <field id="12" title="Escarole - 5.3 oz allowed"/>
+            
+            <field id="13" title="Endive - 5.3 oz allowed"/>
+            <field id="14" title="Fennel - 5.3 oz allowed"/>
+            <field id="15" title="Frisee - 5.3 oz allowed"/>
+            <field id="16" title="Field Greens - 5.3 oz allowed"/>
+            <field id="17" title="Iceberg Lettuce - 5.3 oz allowed"/>
+            
+            <field id="18" title="Kale - 5.3 oz allowed"/>
+            <field id="19" title="Lamb's Leaf - 5.3 oz allowed"/>
+            <field id="20" title="Lolla Bionda - 5.3 oz allowed"/>
+            <field id="21" title="Lollo Rosso - 5.3 oz allowed"/>
+            <field id="22" title="Mesclun - 5.3 oz allowed"/>
+            <field id="23" title="Mustard Greens - 5.3 oz allowed"/>
+            <field id="24" title="Oakleaf Lettuce - 5.3 oz allowed"/>
+            <field id="25" title="Radicchio - 5.3 oz allowed"/>
+            <field id="26" title="Red Orach - 5.3 oz allowed"/>
+            <field id="27" title="Romaine - 5.3 oz allowed"/>
+            <field id="28" title="Spinach - 5.3 oz allowed"/>
+            
+            <field id="29" title="Tat Soi - 5.3 oz allowed"/>
+            <field id="30" title="Turnip Greens - 5.3 oz allowed"/>
+            <field id="31" title="Watercress - 5.3 oz allowed"/>
+            
+            
+        </fields>
+        
+    </GreensL>
+    <GreensD id="GreensD" title="GreensD">
+        <fields>
+            <field id="1" title="Arugula&#47;Rocket - 5.3 oz allowed"/>
+            <field id="2" title="Bibb Lettuce - 5.3 oz allowed"/>
+            <field id="3" title="Bok Choi - 5.3 oz allowed"/>
+            <field id="4" title="Boston Lettuce - 5.3 oz allowed"/>
+            <field id="5" title="Butterhead - 5.3 oz allowed"/>
+            <field id="6" title="Cabbage - 5.3 oz allowed"/>
+            <field id="7" title="Chard - 5.3 oz allowed"/>
+            <field id="8" title="Chickory - 5.3 oz allowed"/>
+            <field id="9" title="Collard Greens - 5.3 oz allowed"/>
+            <field id="1O" title="Corn Salad Leaf&#47;Mache - 5.3 oz allowed"/>
+            <field id="11" title="Dandelion Greens - 5.3 oz allowed"/>
+            <field id="12" title="Escarole - 5.3 oz allowed"/>
+            
+            <field id="13" title="Endive - 5.3 oz allowed"/>
+            <field id="14" title="Fennel - 5.3 oz allowed"/>
+            <field id="15" title="Frisee - 5.3 oz allowed"/>
+            <field id="16" title="Field Greens - 5.3 oz allowed"/>
+            <field id="17" title="Iceberg Lettuce - 5.3 oz allowed"/>
+            
+            <field id="18" title="Kale - 5.3 oz allowed"/>
+            <field id="19" title="Lamb's Leaf - 5.3 oz allowed"/>
+            <field id="20" title="Lolla Bionda - 5.3 oz allowed"/>
+            <field id="21" title="Lollo Rosso - 5.3 oz allowed"/>
+            <field id="22" title="Mesclun - 5.3 oz allowed"/>
+            <field id="23" title="Mustard Greens - 5.3 oz allowed"/>
+            <field id="24" title="Oakleaf Lettuce - 5.3 oz allowed"/>
+            <field id="25" title="Radicchio - 5.3 oz allowed"/>
+            <field id="26" title="Red Orach - 5.3 oz allowed"/>
+            <field id="27" title="Romaine - 5.3 oz allowed"/>
+            <field id="28" title="Spinach - 5.3 oz allowed"/>
+            
+            <field id="29" title="Tat Soi - 5.3 oz allowed"/>
+            <field id="30" title="Turnip Greens - 5.3 oz allowed"/>
+            <field id="31" title="Watercress - 5.3 oz allowed"/>
+        </fields>
+        
+    </GreensD>
+    
+    
+    <Snacks id="Snacks" title="Snacks">
+        <fields>
+            <field id="1" title="Nuts"/>
+            <field id="2" title="Avocado"/>
+        </fields>
+    </Snacks>
+    <Nuts id="Nuts" title="Nuts">
+        <fields>
+            <field id="1" title="Almonds - 1.7 oz allowed"/>
+            <field id="2" title="Brazil Nuts - 1.7 oz allowed"/>
+            <field id="3" title="Cashews - 1.7 oz allowed"/>
+            <field id="4" title="Hazelnuts&#47;Filberts - 1.7 oz allowed"/>
+            <field id="5" title="Macademia Nuts - 1.7 oz allowed"/>
+            <field id="6" title="Pistachios - 1.7 oz allowed"/>
+            <field id="7" title="Pumpkin Seeds - 1.7 oz allowed"/>
+            <field id="8" title="Sesame Seeds - 1.7 oz allowed"/>
+            <field id="9" title="Sunflower Seeds - 1.7 oz allowed"/>
+            <field id="10" title="Walnuts - 1.7 oz allowed"/>
+        </fields>
+    </Nuts>
+    <Avocado id="Avocado" title="Avocado">
+        <fields>
+            <field id="1" title="Avocado - 5.95 oz allowed"/>
+        </fields>
+    </Avocado>
+
+    <Herbs id="Herbs" title="Herbs">
+        <fields>
+            <field id="1" title="Dry"/>
+            <field id="2" title="Fresh"/>
+        </fields>
+    </Herbs>
+    
+    <DryB id="DryB" title="DryB">
+        <fields>
+            <field id="1" title="All Spice - 0.33 oz allowed"/>
+            <field id="2" title="Anise - 0.33 oz allowed"/>
+            <field id="3" title="Bay Leaves - 0.33 oz allowed"/>
+            <field id="4" title="Black Pepper - 0.33 oz allowed"/>
+            <field id="5" title="Cayenne Pepper - 0.33 oz allowed"/>
+            <field id="6" title="Chaomomile - 0.33 oz allowed"/>
+            <field id="7" title="Chili Powder - 0.33 oz allowed"/>
+            <field id="8" title="Cinnamon - 0.33 oz allowed"/>
+            <field id="9" title="Cumin - 0.33 oz allowed"/>
+            <field id="10" title="Curry Powder - 0.33 oz allowed"/>
+            <field id="11" title="Eucalyptus - 0.33 oz allowed"/>
+            <field id="12" title="Garlic&#47;Garlic Powder - 0.33 oz allowed"/>
+            <field id="13" title="Ginger Powder - 0.33 oz allowed"/>
+            <field id="14" title="Hops - 0.33 oz allowed"/>
+            <field id="15" title="Lavender - 0.33 oz allowed"/>
+            <field id="16" title="Lemon Verbana - 0.33 oz allowed"/>
+            <field id="17" title="Marjoram - 0.33 oz allowed"/>
+            <field id="18" title="Mustard (Dijon or Yellow)&#47;Mustard Powder - 0.33 oz allowed"/>
+            <field id="19" title="Nutmeg - 0.33 oz allowed"/>
+            
+            <field id="20" title="Dill Weed  - 0.33 oz allowed"/>
+            <field id="21" title="Ginger Root (raw, not pickled) - 0.33 oz allowed"/>
+            <field id="22" title="Horseradish - 0.33 oz allowed"/>
+            <field id="23" title="Lemon Grass - 0.33 oz allowed"/>
+            <field id="24" title="Peppermint - 0.33 oz allowed"/>
+            <field id="25" title="Rosemary - 0.33 oz allowed"/>
+            <field id="26" title="Spearmint - 0.33 oz allowed"/>
+            <field id="27" title="Thyme - 0.33 oz allowed"/>
+            
+            <field id="28" title="Basil - 0.33 oz allowed"/>
+            <field id="29" title="Chives - 0.33 oz allowed"/>
+            <field id="30" title="Coriander&#47;Cilantro - 0.33 oz allowed"/>
+            <field id="31" title="Garden Cress - 0.33 oz allowed"/>
+            <field id="32" title="Parsley - 0.33 oz allowed"/>
+        </fields>
+    </DryB>
+    <DryL id="DryL" title="DryL">
+        <fields>
+            <field id="1" title="All Spice - 0.33 oz allowed"/>
+            <field id="2" title="Anise - 0.33 oz allowed"/>
+            <field id="3" title="Bay Leaves - 0.33 oz allowed"/>
+            <field id="4" title="Black Pepper - 0.33 oz allowed"/>
+            <field id="5" title="Cayenne Pepper - 0.33 oz allowed"/>
+            <field id="6" title="Chaomomile - 0.33 oz allowed"/>
+            <field id="7" title="Chili Powder - 0.33 oz allowed"/>
+            <field id="8" title="Cinnamon - 0.33 oz allowed"/>
+            <field id="9" title="Cumin - 0.33 oz allowed"/>
+            <field id="10" title="Curry Powder - 0.33 oz allowed"/>
+            <field id="11" title="Eucalyptus - 0.33 oz allowed"/>
+            <field id="12" title="Garlic&#47;Garlic Powder - 0.33 oz allowed"/>
+            <field id="13" title="Ginger Powder - 0.33 oz allowed"/>
+            <field id="14" title="Hops - 0.33 oz allowed"/>
+            <field id="15" title="Lavender - 0.33 oz allowed"/>
+            <field id="16" title="Lemon Verbana - 0.33 oz allowed"/>
+            <field id="17" title="Marjoram - 0.33 oz allowed"/>
+            <field id="18" title="Mustard (Dijon or Yellow)&#47;Mustard Powder - 0.33 oz allowed"/>
+            <field id="19" title="Nutmeg - 0.33 oz allowed"/>
+            
+            <field id="20" title="Dill Weed  - 0.33 oz allowed"/>
+            <field id="21" title="Ginger Root (raw, not pickled) - 0.33 oz allowed"/>
+            <field id="22" title="Horseradish - 0.33 oz allowed"/>
+            <field id="23" title="Lemon Grass - 0.33 oz allowed"/>
+            <field id="24" title="Peppermint - 0.33 oz allowed"/>
+            <field id="25" title="Rosemary - 0.33 oz allowed"/>
+            <field id="26" title="Spearmint - 0.33 oz allowed"/>
+            <field id="27" title="Thyme - 0.33 oz allowed"/>
+            
+            <field id="28" title="Basil - 0.33 oz allowed"/>
+            <field id="29" title="Chives - 0.33 oz allowed"/>
+            <field id="30" title="Coriander&#47;Cilantro - 0.33 oz allowed"/>
+            <field id="31" title="Garden Cress - 0.33 oz allowed"/>
+            <field id="32" title="Parsley - 0.33 oz allowed"/>
+        </fields>
+        
+    </DryL>
+    <DryD id="DryD" title="DryD">
+        <fields>
+            <field id="1" title="All Spice - 0.33 oz allowed"/>
+            <field id="2" title="Anise - 0.33 oz allowed"/>
+            <field id="3" title="Bay Leaves - 0.33 oz allowed"/>
+            <field id="4" title="Black Pepper - 0.33 oz allowed"/>
+            <field id="5" title="Cayenne Pepper - 0.33 oz allowed"/>
+            <field id="6" title="Chaomomile - 0.33 oz allowed"/>
+            <field id="7" title="Chili Powder - 0.33 oz allowed"/>
+            <field id="8" title="Cinnamon - 0.33 oz allowed"/>
+            <field id="9" title="Cumin - 0.33 oz allowed"/>
+            <field id="10" title="Curry Powder - 0.33 oz allowed"/>
+            <field id="11" title="Eucalyptus - 0.33 oz allowed"/>
+            <field id="12" title="Garlic&#47;Garlic Powder - 0.33 oz allowed"/>
+            <field id="13" title="Ginger Powder - 0.33 oz allowed"/>
+            <field id="14" title="Hops - 0.33 oz allowed"/>
+            <field id="15" title="Lavender - 0.33 oz allowed"/>
+            <field id="16" title="Lemon Verbana - 0.33 oz allowed"/>
+            <field id="17" title="Marjoram - 0.33 oz allowed"/>
+            <field id="18" title="Mustard (Dijon or Yellow)&#47;Mustard Powder - 0.33 oz allowed"/>
+            <field id="19" title="Nutmeg - 0.33 oz allowed"/>
+            
+            <field id="20" title="Dill Weed  - 0.33 oz allowed"/>
+            <field id="21" title="Ginger Root (raw, not pickled) - 0.33 oz allowed"/>
+            <field id="22" title="Horseradish - 0.33 oz allowed"/>
+            <field id="23" title="Lemon Grass - 0.33 oz allowed"/>
+            <field id="24" title="Peppermint - 0.33 oz allowed"/>
+            <field id="25" title="Rosemary - 0.33 oz allowed"/>
+            <field id="26" title="Spearmint - 0.33 oz allowed"/>
+            <field id="27" title="Thyme - 0.33 oz allowed"/>
+            
+            <field id="28" title="Basil - 0.33 oz allowed"/>
+            <field id="29" title="Chives - 0.33 oz allowed"/>
+            <field id="30" title="Coriander&#47;Cilantro - 0.33 oz allowed"/>
+            <field id="31" title="Garden Cress - 0.33 oz allowed"/>
+            <field id="32" title="Parsley - 0.33 oz allowed"/>
+        </fields>
+    </DryD>
+    
+    <FreshB id="FreshB" title="FreshB">
+        <fields>
+            <field id="1" title="All Spice - 0.33 oz allowed"/>
+            <field id="2" title="Anise - 0.33 oz allowed"/>
+            <field id="3" title="Bay Leaves - 0.33 oz allowed"/>
+            <field id="4" title="Black Pepper - 0.33 oz allowed"/>
+            <field id="5" title="Cayenne Pepper - 0.33 oz allowed"/>
+            <field id="6" title="Chaomomile - 0.33 oz allowed"/>
+            <field id="7" title="Chili Powder - 0.33 oz allowed"/>
+            <field id="8" title="Cinnamon - 0.33 oz allowed"/>
+            <field id="9" title="Cumin - 0.33 oz allowed"/>
+            <field id="10" title="Curry Powder - 0.33 oz allowed"/>
+            <field id="11" title="Eucalyptus - 0.33 oz allowed"/>
+            <field id="12" title="Garlic&#47;Garlic Powder - 0.33 oz allowed"/>
+            <field id="13" title="Ginger Powder - 0.33 oz allowed"/>
+            <field id="14" title="Hops - 0.33 oz allowed"/>
+            <field id="15" title="Lavender - 0.33 oz allowed"/>
+            <field id="16" title="Lemon Verbana - 0.33 oz allowed"/>
+            <field id="17" title="Marjoram - 0.33 oz allowed"/>
+            <field id="18" title="Mustard (Dijon or Yellow)&#47;Mustard Powder - 0.33 oz allowed"/>
+            <field id="19" title="Nutmeg  - 0.33 oz allowed"/>
+            
+            <field id="20" title="Dill Weed  - 0.66 oz allowed"/>
+            <field id="21" title="Ginger Root (raw, not pickled) - 0.66 oz allowed"/>
+            <field id="22" title="Horseradish - 0.66 oz allowed"/>
+            <field id="23" title="Lemon Grass - 0.66 oz allowed"/>
+            <field id="24" title="Peppermint - 0.66 oz allowed"/>
+            <field id="25" title="Rosemary - 0.66 oz allowed"/>
+            <field id="26" title="Spearmint - 0.66 oz allowed"/>
+            <field id="27" title="Thyme - 0.66 oz allowed"/>
+            
+            <field id="28" title="Basil - 1.5 oz allowed"/>
+            <field id="29" title="Chives - 1.5 oz allowed"/>
+            <field id="30" title="Coriander&#47;Cilantro - 1.5 oz allowed"/>
+            <field id="31" title="Garden Cress - 1.5 oz allowed"/>
+            <field id="32" title="Parsley - 1.5 oz allowed"/>
+        </fields>
+    </FreshB>
+    <FreshL id="FreshL" title="FreshL">
+        <fields>
+            <field id="1" title="All Spice - 0.33 oz allowed"/>
+            <field id="2" title="Anise - 0.33 oz allowed"/>
+            <field id="3" title="Bay Leaves - 0.33 oz allowed"/>
+            <field id="4" title="Black Pepper - 0.33 oz allowed"/>
+            <field id="5" title="Cayenne Pepper - 0.33 oz allowed"/>
+            <field id="6" title="Chaomomile - 0.33 oz allowed"/>
+            <field id="7" title="Chili Powder - 0.33 oz allowed"/>
+            <field id="8" title="Cinnamon - 0.33 oz allowed"/>
+            <field id="9" title="Cumin - 0.33 oz allowed"/>
+            <field id="10" title="Curry Powder - 0.33 oz allowed"/>
+            <field id="11" title="Eucalyptus - 0.33 oz allowed"/>
+            <field id="12" title="Garlic&#47;Garlic Powder - 0.33 oz allowed"/>
+            <field id="13" title="Ginger Powder - 0.33 oz allowed"/>
+            <field id="14" title="Hops - 0.33 oz allowed"/>
+            <field id="15" title="Lavender - 0.33 oz allowed"/>
+            <field id="16" title="Lemon Verbana - 0.33 oz allowed"/>
+            <field id="17" title="Marjoram - 0.33 oz allowed"/>
+            <field id="18" title="Mustard (Dijon or Yellow)&#47;Mustard Powder - 0.33 oz allowed"/>
+            <field id="19" title="Nutmeg  - 0.33 oz allowed"/>
+            
+            <field id="20" title="Dill Weed  - 0.66 oz allowed"/>
+            <field id="21" title="Ginger Root (raw, not pickled) - 0.66 oz allowed"/>
+            <field id="22" title="Horseradish - 0.66 oz allowed"/>
+            <field id="23" title="Lemon Grass - 0.66 oz allowed"/>
+            <field id="24" title="Peppermint - 0.66 oz allowed"/>
+            <field id="25" title="Rosemary - 0.66 oz allowed"/>
+            <field id="26" title="Spearmint - 0.66 oz allowed"/>
+            <field id="27" title="Thyme - 0.66 oz allowed"/>
+            
+            <field id="28" title="Basil - 1.5 oz allowed"/>
+            <field id="29" title="Chives - 1.5 oz allowed"/>
+            <field id="30" title="Coriander&#47;Cilantro - 1.5 oz allowed"/>
+            <field id="31" title="Garden Cress - 1.5 oz allowed"/>
+            <field id="32" title="Parsley - 1.5 oz allowed"/>
+        </fields>
+    </FreshL>
+    <FreshD id="FreshD" title="FreshD">
+        <fields>
+            <field id="1" title="All Spice - 0.33 oz allowed"/>
+            <field id="2" title="Anise - 0.33 oz allowed"/>
+            <field id="3" title="Bay Leaves - 0.33 oz allowed"/>
+            <field id="4" title="Black Pepper - 0.33 oz allowed"/>
+            <field id="5" title="Cayenne Pepper - 0.33 oz allowed"/>
+            <field id="6" title="Chaomomile - 0.33 oz allowed"/>
+            <field id="7" title="Chili Powder - 0.33 oz allowed"/>
+            <field id="8" title="Cinnamon - 0.33 oz allowed"/>
+            <field id="9" title="Cumin - 0.33 oz allowed"/>
+            <field id="10" title="Curry Powder - 0.33 oz allowed"/>
+            <field id="11" title="Eucalyptus - 0.33 oz allowed"/>
+            <field id="12" title="Garlic&#47;Garlic Powder - 0.33 oz allowed"/>
+            <field id="13" title="Ginger Powder - 0.33 oz allowed"/>
+            <field id="14" title="Hops - 0.33 oz allowed"/>
+            <field id="15" title="Lavender - 0.33 oz allowed"/>
+            <field id="16" title="Lemon Verbana - 0.33 oz allowed"/>
+            <field id="17" title="Marjoram - 0.33 oz allowed"/>
+            <field id="18" title="Mustard (Dijon or Yellow)&#47;Mustard Powder - 0.33 oz allowed"/>
+            <field id="19" title="Nutmeg  - 0.33 oz allowed"/>
+            
+            <field id="20" title="Dill Weed  - 0.66 oz allowed"/>
+            <field id="21" title="Ginger Root (raw, not pickled) - 0.66 oz allowed"/>
+            <field id="22" title="Horseradish - 0.66 oz allowed"/>
+            <field id="23" title="Lemon Grass - 0.66 oz allowed"/>
+            <field id="24" title="Peppermint - 0.66 oz allowed"/>
+            <field id="25" title="Rosemary - 0.66 oz allowed"/>
+            <field id="26" title="Spearmint - 0.66 oz allowed"/>
+            <field id="27" title="Thyme - 0.66 oz allowed"/>
+            
+            <field id="28" title="Basil - 1.5 oz allowed"/>
+            <field id="29" title="Chives - 1.5 oz allowed"/>
+            <field id="30" title="Coriander&#47;Cilantro - 1.5 oz allowed"/>
+            <field id="31" title="Garden Cress - 1.5 oz allowed"/>
+            <field id="32" title="Parsley - 1.5 oz allowed"/>
+        </fields>
+    </FreshD>
+
+    <SeasoningsB id="SeasoningsB" title="SeasoningsB">
+        <fields>
+            <field id="1" title="Lemon or Lime Juice - 1 oz allowed"/>
+            <field id="2" title="Vinegar (distilled, red wine, cider) - 1.3 oz allowed"/>
+            <field id="3" title="Oil (Virigin Olive, Flaxseed, Sunflower) - 0.33 oz allowed"/>
+        </fields>
+    </SeasoningsB>
+    <SeasoningsL id="SeasoningsL" title="SeasoningsL">
+        <fields>
+            <field id="1" title="Lemon or Lime Juice - 1 oz allowed"/>
+            <field id="2" title="Vinegar (distilled, red wine, cider) - 1.3 oz allowed"/>
+            <field id="3" title="Oil (Virigin Olive, Flaxseed, Sunflower) - 0.33 oz allowed"/>
+        </fields>
+    </SeasoningsL>
+    <SeasoningsD id="SeasoningsD" title="SeasoningsD">
+        <fields>
+            <field id="1" title="Lemon or Lime Juice - 1 oz allowed"/>
+            <field id="2" title="Vinegar (distilled, red wine, cider) - 1.3 oz allowed"/>
+            <field id="3" title="Oil (Virigin Olive, Flaxseed, Sunflower) - 0.33 oz allowed"/>
+        </fields>
+    </SeasoningsD>
+</foodoptions>
+

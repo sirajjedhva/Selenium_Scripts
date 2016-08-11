@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="289" key="DIALOG_WIDTH"/>
+		<item value="406" key="DIALOG_Y_ORIGIN"/>
+		<item value="576" key="DIALOG_X_ORIGIN"/>
+		<item value="432" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="Thread.sleep(2000);" key="selection"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="pmsSheet" key="selection"/>
 		<list key="findhistory">
+			<item value="sheet"/>
+			<item value="pmSheet"/>
+			<item value="ontestFailure"/>
+			<item value="signinNav nav navbar-nav navbar-right"/>
 			<item value="Thread.sleep(2000);"/>
 			<item value="WebDriver driver=new ChromeDriver();"/>
+		</list>
+		<list key="replacehistory">
+			<item value="pmsSheet"/>
+			<item value="sheet"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

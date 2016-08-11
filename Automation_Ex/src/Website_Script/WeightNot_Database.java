@@ -79,7 +79,7 @@ public class WeightNot_Database {
 			food_item="";
 			count++;
 		}
-		System.out.println(count + "Item addes for thinerCleanes" );
+		System.out.println(count + "Item added for thinerCleanes" );
 		
 		
 	   }catch(Exception e){

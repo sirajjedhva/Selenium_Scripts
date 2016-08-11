@@ -1,0 +1,26 @@
+//using more than one thread is called Multi Threading
+
+class TDemo extends Thread{
+	String str;
+	TDemo(String str){
+		this.str=str;
+	}
+	public void run(){
+		for(int i=0;i<10;i++){
+			System.out.println(str+":"+i);
+			try{
+				Thread.sleep(2000);
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+}
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

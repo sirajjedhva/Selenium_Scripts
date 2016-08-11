@@ -1,0 +1,30 @@
+import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class LoggingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		driver=new FirefoxDriver();
+		Logger log=Logger.getLogger("devpinoyLogger");
+		driver.get("http://healthunify.com/bmicalculator");
+			//driver.get("<a href="http://healthunify.com/bmicalculator/">http://healthunify.com/bmicalculator/</a>");                                
+		log.debug("opening webiste");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		log.debug("entering weight");
+		driver.findElement(By.name("wg")).sendKeys("87");
+		log.debug("selecting kilograms");
+		driver.findElement(By.name("opt1")).sendKeys("kilograms");
+		log.debug("");
+		driver.findElement(By.name("")).sendKeys("");
+		log.debug("");
+		driver.findElement(By.name("")).sendKeys("");
+	}
+
+}

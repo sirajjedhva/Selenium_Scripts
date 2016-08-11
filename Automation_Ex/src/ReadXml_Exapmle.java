@@ -1,7 +1,9 @@
 import java.io.File;
+import java.util.concurrent.TimeUnit;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.*;
 import org.w3c.dom.*;
@@ -33,25 +35,25 @@ Element element = (Element) currentNode;
 NodeList mailServerElemntList = element.getElementsByTagName("service");
 Element mailServer = (Element) mailServerElemntList.item(0);
 NodeList mailServer1 = mailServer.getChildNodes();
-String Service = ((Node)mailServer1.item(0)).getNodeValue();
+String Service = mailServer1.item(0).getNodeValue();
 System.out.println("Mail Servername:"+ Service);
 
 NodeList emailNodeElementList = element.getElementsByTagName("email-id");
 Element emailNodeElement = (Element)emailNodeElementList.item(0);
 NodeList details = emailNodeElement.getChildNodes();
-String emailAddress=((Node) details.item(0)).getNodeValue();
+String emailAddress=details.item(0).getNodeValue();
 System.out.println("email :" + emailAddress);
 
 NodeList passwordNodeElementList = element.getElementsByTagName("password");
 Element passwordNodeElement = (Element) passwordNodeElementList.item(0);
 NodeList address = passwordNodeElement.getChildNodes();
-String passCode = ((Node) address.item(0)).getNodeValue();
+String passCode = address.item(0).getNodeValue();
 System.out.println("Password : "+passCode);
 
 NodeList destFolder = element.getElementsByTagName("folder");
 Element destElement = (Element) destFolder.item(0);
 NodeList city = destElement.getChildNodes();
-String destnFolder = ((Node) city.item(0)).getNodeValue();
+String destnFolder = city.item(0).getNodeValue();
 System.out.println("Folder : " + destnFolder);
 
 FirefoxDriver wd = new FirefoxDriver();

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" thread-count="2" parallel="methods">
+    <test name="facebook">
+        <classes>
+            <class name="ParallelTest">
+            </class>
+        </classes>
+    </test>
+    
+</suite>

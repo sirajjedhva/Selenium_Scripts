@@ -1,0 +1,25 @@
+package operation;
+
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+
+
+public class UIOperation {
+
+	WebDriver driver;
+	
+	public UIOperation(WebDriver driver){
+		this.driver=driver;
+	}
+	public void perform(Properties p,String operation,String objectName,String objectType,String value){
+		//Properties p,String operation,String objectName,String objectType,String value
+		
+		System.out.println("");
+		Switch(operation.toUpperCase()){
+			
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Streams_and_Files.Employ&apos; to &apos;StoreObj&apos;&#x0A;- Original project: &apos;Javaexample&apos;&#x0A;- Original element: &apos;Streams_and_Files.Employ&apos;&#x0A;- Renamed element: &apos;Streams_and_Files.StoreObj&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Employ&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Streams_and_Files{Employ.java[Employ" matchStrategy="1" name="StoreObj" qualified="false" references="true" similarDeclarations="false" stamp="1455526676065" textual="false" version="1.0"/>
+</session>
